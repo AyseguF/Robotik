@@ -2,7 +2,7 @@
 
 # 1. Proje Amacı ve Kapsamı
 
-Bu proje, afet sonrası (deprem, sel vb.) ulaşılması zor enkaz bölgelerinde hızlı keşif ve hayat belirtisi tespiti yapabilen otonom bir İHA (İnsansız Hava Aracı) sisteminin simülasyonudur. Projenin temel amacı, arama-kurtarma ekiplerinin riskli bölgelere girmeden önce kritik verileri (canlı konumu, ulaşım yolları) güvenli bir mesafeden toplamasını sağlamaktır.
+Bu proje, afet sonrası (deprem, sel vb.) ulaşılması zor enkaz bölgelerinde hızlı keşif ve hayat belirtisi tespiti yapabilen otonom bir drone sisteminin simülasyonudur. Projenin temel amacı, arama-kurtarma ekiplerinin riskli bölgelere girmeden önce kritik verileri (canlı konumu, ulaşım yolları) güvenli bir mesafeden toplamasını sağlamaktır.
 
 # 2. Kullanılan Teknolojiler ve Araçlar
 *Simülasyon Ortamı: Webots R2023b
