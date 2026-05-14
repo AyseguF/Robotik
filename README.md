@@ -1,5 +1,5 @@
 # 🚁 LifeScan-Webots: Otonom Arama ve Enkaz Altı Canlı Tespiti Simülasyonu
----
+
 # 1. Proje Amacı ve Kapsamı
 
 Bu proje, afet sonrası (deprem, sel vb.) ulaşılması zor enkaz bölgelerinde hızlı keşif ve hayat belirtisi tespiti yapabilen otonom bir İHA (İnsansız Hava Aracı) sisteminin simülasyonudur. Projenin temel amacı, arama-kurtarma ekiplerinin riskli bölgelere girmeden önce kritik verileri (canlı konumu, ulaşım yolları) güvenli bir mesafeden toplamasını sağlamaktır.
@@ -7,15 +7,15 @@ Bu proje, afet sonrası (deprem, sel vb.) ulaşılması zor enkaz bölgelerinde 
 # 2. Kullanılan Teknolojiler ve Araçlar
 *Simülasyon Ortamı: Webots R2023b
 
-*Hava Aracı: DJI Mavic 2 Pro (Dengelenmiş uçuş dinamikleri ile)
+* Hava Aracı: DJI Mavic 2 Pro (Dengelenmiş uçuş dinamikleri ile)
 
-*Programlama Dilleri:
+* Programlama Dilleri:
 
-  *C: Dronun stabilizasyonu ve klavye/otonom uçuş kontrolleri.
+  * C: Dronun stabilizasyonu ve klavye/otonom uçuş kontrolleri.
 
-  *Python: Veri analizi, mesafe hesaplamaları ve raporlama birimi (Supervisor).
+  * Python: Veri analizi, mesafe hesaplamaları ve raporlama birimi (Supervisor).
 
-*Algılama Metodolojisi: Koordinat Bazlı Yakınlık Analizi (Proximity Analysis).
+* Algılama Metodolojisi: Koordinat Bazlı Yakınlık Analizi (Proximity Analysis).
 
 # 3. Sistem Mimarisi ve Sensörler
 Proje, donanım verimliliğini maksimize etmek için hiyerarşik bir yapıda tasarlanmıştır:
