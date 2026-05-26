@@ -71,7 +71,7 @@ Projede başlangıçta planlanan termal/sıcaklık sensör mimarisi yerine, dona
 
 > Dronun kalkış, havada sabit asılı kalma (*hovering*), eksenel hassas dönüş, süzülerek alçalma ve eş zamanlı enkaz altı canlı algılama aşamalarını içeren güncel uçuş simülasyonu görüntüsü:
 
-![LifeScan Dron Uçuş Kontrolü ve Hedef Algılama Gösterimi](media/dron.gif)
+                                    ![LifeScan Dron Uçuş Kontrolü ve Hedef Algılama Gösterimi](media/dron.gif)
 
 ---
 
