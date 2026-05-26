@@ -25,10 +25,9 @@ Projenin temel misyonu, arama-kurtarma ekipleri sahaya girmeden önce kritik ver
 ## 🧠 3. Sistem Mimarisi ve Kararlılık Optimizasyonları
 
 Projenin kararlı uçuş algoritması, geleneksel quadcopter zafiyetlerini ortadan kaldırmak için özelleştirilmiş 4 eksenli (Roll, Pitch, Yaw, Altitude) bir PID denetleyici mimarisine sahiptir:
-                                                          ┌──────────────────────────────────────────┐
-                                                          
+
+                                                          ┌──────────────────────────────────────────┐                                                          
                                                           │          Klavye / Otonom Girdi           │
-                                                          
                                                           └────────────────────┬─────────────────────┘
                                                                                │
                                                                                ▼
