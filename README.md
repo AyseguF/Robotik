@@ -31,25 +31,25 @@ Projenin kararlı uçuş algoritması, geleneksel quadcopter zafiyetlerini ortad
                                                           └────────────────────┬─────────────────────┘
                                                                                │
                                                                                ▼
-                                            ┌──────────────────────────────────────────────────────────────────────────────────┐
-                                            │                           PID Kontrolör Matrisi                                  │
-                                            │   k_vertical_p = 1.0  |  k_roll_p = 40.0  |  k_pitch_p = 25.0  |  k_yaw_p = 1.0  │
-                                            └────────────────────────────────────┬─────────────────────────────────────────────┘
-                                                                                 │
-                                                                                 ▼
-                                                            ┌──────────────────────────────────────────┐
-                                                            │    Yazılımsal Durum Hafızası (Filter)    │
-                                                            └────────────────────┬─────────────────────┘
-                                                                                 │
-                                                                                 ▼
-                                                            ┌──────────────────────────────────────────┐
-                                                            │      Doyum ve Limit Kırpma (Clamp)       │
-                                                            └────────────────────┬─────────────────────┘
-                                                                                 │
-                                                                                 ▼
-                                                            ┌──────────────────────────────────────────┐
-                                                            │    DJI Mavic 2 Pro Motor Sürücüleri      │
-                                                            └──────────────────────────────────────────┘
+                                          ┌──────────────────────────────────────────────────────────────────────────────────┐
+                                          │                           PID Kontrolör Matrisi                                  │
+                                          │   k_vertical_p = 1.0  |  k_roll_p = 40.0  |  k_pitch_p = 25.0  |  k_yaw_p = 1.0  │
+                                          └────────────────────────────────────┬─────────────────────────────────────────────┘
+                                                                               │
+                                                                               ▼
+                                                          ┌──────────────────────────────────────────┐
+                                                          │    Yazılımsal Durum Hafızası (Filter)    │
+                                                          └────────────────────┬─────────────────────┘
+                                                                               │
+                                                                               ▼
+                                                          ┌──────────────────────────────────────────┐
+                                                          │      Doyum ve Limit Kırpma (Clamp)       │
+                                                          └────────────────────┬─────────────────────┘
+                                                                               │
+                                                                               ▼
+                                                          ┌──────────────────────────────────────────┐
+                                                          │    DJI Mavic 2 Pro Motor Sürücüleri      │
+                                                          └──────────────────────────────────────────┘
 
 ### 🛡️ Kritik Geliştirmeler ve Mühendislik Çözümleri
 1. **Vortex Ring State (Girdap Halkası / Türbülans) Koruması:** Dronun dikey alçalma (*descent*) esnasında kendi pervanelerinin ürettiği kirli ve türbülanslı hava akımına gömülerek ani tork kaybı yaşaması ve takla atarak düşmesi engellenmiştir. Dikey eksen kazancı `k_vertical_p = 1.0` seviyesine çekilmiş ve kübik kontrol formülünün alt sınırı `-0.4` olarak maskelenerek dronun paraşüt kararlılığında süzülmesi sağlanmıştır.
